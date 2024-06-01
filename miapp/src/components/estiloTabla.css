@@ -1,0 +1,81 @@
+.table-container {
+    padding: 20px;
+    background-color: #663399;
+    color: white;
+  }
+  
+  .header-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+  
+  .header-btn {
+    background-color: #12e739;
+    color: rgb(1, 1, 1);
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .header-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: #4B0082; /* Cambié a un color más oscuro */
+  }
+  
+  .styled-table th, .styled-table td {
+    padding: 12px 15px;
+  }
+  
+  .styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  .styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    background-color: #4B0082; /* Cambié a un color más oscuro */
+    color: white; /* Cambié el color del texto a blanco */
+  }
+  
+  .styled-table tbody tr:nth-of-type(even) {
+    background-color: #4B0082; /* Cambié a un color más oscuro */
+  }
+  
+  .styled-table tbody tr:hover {
+    background-color: cyan;
+    color: black;
+  }
+  
+  .btn-pasar-lista {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-ver-asistencias {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .btn-pasar-lista:hover, .btn-ver-asistencias:hover {
+    opacity: 0.8;
+  }
+  
