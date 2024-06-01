@@ -1,2 +1,2 @@
 # RegistroDeAsistenciaReact
-Migración de un sistema a React y nodeJS
+Uso de tecnologias de React y nodeJS
