@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import './estiloTabla.css';
+import './style.css'; 
 import axios from 'axios';
 
 function PaseDeLista() {
@@ -100,8 +101,8 @@ function PaseDeLista() {
         </tbody>
       </table>
       <div className="button-container">
-        <Link to="/Tabla" className="btn volver">Volver</Link>
-        <button className="btn confirmar" onClick={handleConfirmarPaseDeLista}>Confirmar Pase de Lista</button>
+        <Link to="/Tabla" className="btn-ver-asistencias">Volver</Link>
+        <button className="btn confirmar" onClick={handleConfirmarPaseDeLista} className="my-form__button">Confirmar Pase de Lista</button>
       </div>
     </div>
   );
